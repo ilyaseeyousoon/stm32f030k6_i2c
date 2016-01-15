@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"i2c_nachalo configuration\i2c.o"
+"i2c_nachalo configuration\gpio.o"
+"i2c_nachalo configuration\stm32f1xx_hal_msp.o"
+"i2c_nachalo configuration\main.o"
+"i2c_nachalo configuration\stm32f1xx_it.o"
+"i2c_nachalo configuration\startup_stm32f100xb.o"
+"i2c_nachalo configuration\system_stm32f1xx.o"
+"i2c_nachalo configuration\stm32f1xx_hal_gpio_ex.o"
+"i2c_nachalo configuration\stm32f1xx_hal_flash_ex.o"
+"i2c_nachalo configuration\stm32f1xx_hal_i2c.o"
+"i2c_nachalo configuration\stm32f1xx_hal_rcc_ex.o"
+"i2c_nachalo configuration\stm32f1xx_hal_flash.o"
+"i2c_nachalo configuration\stm32f1xx_hal.o"
+"i2c_nachalo configuration\stm32f1xx_hal_rcc.o"
+"i2c_nachalo configuration\stm32f1xx_hal_dma.o"
+"i2c_nachalo configuration\stm32f1xx_hal_pwr.o"
+"i2c_nachalo configuration\stm32f1xx_hal_gpio.o"
+"i2c_nachalo configuration\stm32f1xx_hal_cortex.o"
+--library_type=microlib --strict --scatter "i2c_nachalo Configuration\i2c_nachalo Configuration.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "i2c_nachalo Configuration.map" -o "i2c_nachalo Configuration\i2c_nachalo Configuration.axf"
